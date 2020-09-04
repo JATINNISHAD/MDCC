@@ -6,6 +6,7 @@
 
 
 
+
 nav{
     display: flex;
     justify-content: space-around;
@@ -38,7 +39,7 @@ nav a{
         justify-content: space-around;
     }
     nav li{
-        margin: auto;
+        margin: 1rem;
     }
 
 }
@@ -49,14 +50,14 @@ nav a{
     height: 90vh;
     align-items: center;
     justify-content: center;
-    background: url('https://cdn.hipwallpaper.com/i/92/72/RaV1Ai.png');
+    background: url('https://sofiaglobe.com/wp-content/uploads/2012/06/hands-on-computer-keyboard-Jakub-Krechowicz-sxc-hu-e1340779741969.jpg');
     background-attachment: fixed;
     background-repeat: no-repeat;
     background-position: center; 
 }
 
 img{
-    width: 100%;
+    max-width: 100%;
     display: block;
     object-fit: cover;
     min-height: 200px;
@@ -108,20 +109,28 @@ img{
     align-items: center;
     justify-content: space-around;
     max-width: 1100px;
-    width: 90%;
+    
     margin: 1rem auto;
    
     padding: 2rem;
 }
+
+iframe{
+    max-width: 100%;
+    height: 300px;
+}
+
 .iframe-div{
-    padding: 2rem;
-    background: #536872;
+    padding: 1.2rem;
+    background: #f8f8f8;
     border-radius: 5px;
 }
 
 @media(max-width:400px){
     padding: 1.2rem;
 }
+
+
 
 .about-div{
     padding: 2rem;
@@ -138,8 +147,7 @@ img{
 
 #contact{
     display: flex;
-    width: 90%;
-    margin: 2rem auto;
+    margin: 0 auto;
     align-items: center;
     justify-content: space-around;
     background-color: #f8f8f8;
@@ -151,7 +159,7 @@ img{
 }
 
 .contact-img{
-    width: 400px;
+    width: 300px;
     padding: 1rem;
 }
 
