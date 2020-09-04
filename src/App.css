@@ -1,38 +1,161 @@
-.App {
-  text-align: center;
+*{
+    padding: 0;
+    margin:0;
+    font-family: 'Bitter', serif;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+
+
+nav{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding:2rem 0;
+    background-color: #f8f8f8;
+    color: 	#536872;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+nav ul{
+    display: flex;
+}
+nav li{
+    margin-left: 2rem;
+    list-style: none;
+}
+nav a{
+    font-size: 1.2rem;
+    text-decoration: none;
+    color: 	#536872;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+
+#showcase{
+    display: flex;
+    height: 90vh;
+    align-items: center;
+    justify-content: center;
+    background: url('https://cdn.hipwallpaper.com/i/92/72/RaV1Ai.png');
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-position: center; 
 }
 
-.App-link {
-  color: #61dafb;
+img{
+    width: 100%;
+    display: block;
+    object-fit: cover;
+    min-height: 200px;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+
+
+.title{
+    position: relative;
+    color: #f8f8f8;
+    text-align: center;
+    background-color: rgba(0,0,0,0.7);
+    padding: 3rem;
+    border-radius: 5px;
+}
+.title h1{
+    font-size: 2rem;
+}
+
+
+
+.cards{
+    padding: 2rem;
+    box-sizing: border-box;
+    display: flex;
+    flex-wrap: wrap;
+    text-align: center;
+}
+
+#services{
+    background-color: #536872;
+}
+
+.card{
+    width: 300px;
+    margin:.8rem auto;
+    padding: 1rem;
+    background-color: #f8f8f8;
+    border-radius: 5px;
+}
+
+.card-img{
+    margin-bottom: 11px; 
+}
+
+
+#about{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    max-width: 1100px;
+    width: 90%;
+    margin: 1rem auto;
+   
+    padding: 2rem;
+}
+.iframe-div{
+    padding: 2rem;
+    background: #536872;
+    border-radius: 5px;
+}
+.about-div{
+    padding: 2rem;
+}
+
+.about-div h1{
+    font-size: 3rem;
+    color: #536872;
+    margin-bottom: 1rem;
+}
+.about-div p{
+    letter-spacing: 1px;
+}
+
+#contact{
+    display: flex;
+    width: 90%;
+    margin: 2rem auto;
+    align-items: center;
+    justify-content: space-around;
+    background-color: #f8f8f8;
+    padding: 2rem;
+}
+
+#contact img{
+    border-radius: 5px;
+}
+
+.contact-img{
+    width: 400px;
+    padding: 1rem;
+}
+
+#contact h1{
+    font-size: 3rem;
+    margin-bottom: 2rem;
+    color: #536872;
+}
+
+#contact li{
+    list-style: none;
+    line-height: 1.8rem;
+    margin-left: 1rem;
+}
+
+footer{
+    text-align: center;
+    padding: 3rem;
+    background-color: #536872;
+    
+}
+
+@media (max-width: 700px){
+    #contact,#about{
+        flex-direction: column;
+    }
 }
