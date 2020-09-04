@@ -28,6 +28,21 @@ nav a{
     color: 	#536872;
 }
 
+@media(max-width: 400px){
+    
+    nav{
+        flex-direction: column;
+        text-align: center;
+    }
+    nav ul{
+        justify-content: space-around;
+    }
+    nav li{
+        margin: auto;
+    }
+
+}
+
 
 #showcase{
     display: flex;
@@ -103,6 +118,11 @@ img{
     background: #536872;
     border-radius: 5px;
 }
+
+@media(max-width:400px){
+    padding: 1.2rem;
+}
+
 .about-div{
     padding: 2rem;
 }
@@ -159,3 +179,4 @@ footer{
         flex-direction: column;
     }
 }
+

@@ -69,7 +69,7 @@ const Home =()=>{
                     <p>We are <strong>Saharanpur</strong> Based Cyber Cafe. We provide Internet related services like filling up forms, xerox ,etc .</p>
                 </div>
                 <div className="iframe-div" >
-                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3456.6123477600045!2d77.53214351491414!3d29.961827129426094!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x390eeaeb9f0e40bf%3A0x9ae16a1b57518dc2!2sMaa%20Durga%20Cyber%20Cafe!5e0!3m2!1sen!2sin!4v1598964241221!5m2!1sen!2sin" width="400" height="350" frameBorder="0" style={{border:0}} allowFullScreen="" aria-hidden="false" tabIndex="0"></iframe>
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3456.6123477600045!2d77.53214351491414!3d29.961827129426094!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x390eeaeb9f0e40bf%3A0x9ae16a1b57518dc2!2sMaa%20Durga%20Cyber%20Cafe!5e0!3m2!1sen!2sin!4v1598964241221!5m2!1sen!2sin" width="300" height="350" frameBorder="0" style={{border:0}} allowFullScreen="" aria-hidden="false" tabIndex="0"></iframe>
                 </div>
             </section>
 
